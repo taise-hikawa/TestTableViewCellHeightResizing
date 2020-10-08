@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32E1D7E252FB96100038771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D7D252FB96100038771 /* AppDelegate.swift */; };
+		D32E1D80252FB96100038771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D7F252FB96100038771 /* SceneDelegate.swift */; };
+		D32E1D82252FB96100038771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D81252FB96100038771 /* ViewController.swift */; };
+		D32E1D85252FB96100038771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32E1D83252FB96100038771 /* Main.storyboard */; };
+		D32E1D87252FB96800038771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32E1D86252FB96800038771 /* Assets.xcassets */; };
+		D32E1D8A252FB96800038771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32E1D88252FB96800038771 /* LaunchScreen.storyboard */; };
+		D32E1D95252FB96800038771 /* TestTableViewCellHeightResizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D94252FB96800038771 /* TestTableViewCellHeightResizingTests.swift */; };
+		D32E1DA0252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D9F252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32E1D91252FB96800038771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32E1D72252FB96100038771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32E1D79252FB96100038771;
+			remoteInfo = TestTableViewCellHeightResizing;
+		};
+		D32E1D9C252FB96800038771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32E1D72252FB96100038771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32E1D79252FB96100038771;
+			remoteInfo = TestTableViewCellHeightResizing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32E1D7A252FB96100038771 /* TestTableViewCellHeightResizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableViewCellHeightResizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32E1D7D252FB96100038771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32E1D7F252FB96100038771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D32E1D81252FB96100038771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32E1D84252FB96100038771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32E1D86252FB96800038771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32E1D89252FB96800038771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32E1D8B252FB96800038771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32E1D90252FB96800038771 /* TestTableViewCellHeightResizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewCellHeightResizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32E1D94252FB96800038771 /* TestTableViewCellHeightResizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCellHeightResizingTests.swift; sourceTree = "<group>"; };
+		D32E1D96252FB96800038771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32E1D9B252FB96800038771 /* TestTableViewCellHeightResizingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewCellHeightResizingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32E1D9F252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCellHeightResizingUITests.swift; sourceTree = "<group>"; };
+		D32E1DA1252FB96800038771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32E1D77252FB96100038771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D8D252FB96800038771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D98252FB96800038771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32E1D71252FB96100038771 = {
+			isa = PBXGroup;
+			children = (
+				D32E1D7C252FB96100038771 /* TestTableViewCellHeightResizing */,
+				D32E1D93252FB96800038771 /* TestTableViewCellHeightResizingTests */,
+				D32E1D9E252FB96800038771 /* TestTableViewCellHeightResizingUITests */,
+				D32E1D7B252FB96100038771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32E1D7B252FB96100038771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32E1D7A252FB96100038771 /* TestTableViewCellHeightResizing.app */,
+				D32E1D90252FB96800038771 /* TestTableViewCellHeightResizingTests.xctest */,
+				D32E1D9B252FB96800038771 /* TestTableViewCellHeightResizingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32E1D7C252FB96100038771 /* TestTableViewCellHeightResizing */ = {
+			isa = PBXGroup;
+			children = (
+				D32E1D7D252FB96100038771 /* AppDelegate.swift */,
+				D32E1D7F252FB96100038771 /* SceneDelegate.swift */,
+				D32E1D81252FB96100038771 /* ViewController.swift */,
+				D32E1D83252FB96100038771 /* Main.storyboard */,
+				D32E1D86252FB96800038771 /* Assets.xcassets */,
+				D32E1D88252FB96800038771 /* LaunchScreen.storyboard */,
+				D32E1D8B252FB96800038771 /* Info.plist */,
+			);
+			path = TestTableViewCellHeightResizing;
+			sourceTree = "<group>";
+		};
+		D32E1D93252FB96800038771 /* TestTableViewCellHeightResizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32E1D94252FB96800038771 /* TestTableViewCellHeightResizingTests.swift */,
+				D32E1D96252FB96800038771 /* Info.plist */,
+			);
+			path = TestTableViewCellHeightResizingTests;
+			sourceTree = "<group>";
+		};
+		D32E1D9E252FB96800038771 /* TestTableViewCellHeightResizingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32E1D9F252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift */,
+				D32E1DA1252FB96800038771 /* Info.plist */,
+			);
+			path = TestTableViewCellHeightResizingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32E1D79252FB96100038771 /* TestTableViewCellHeightResizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32E1DA4252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizing" */;
+			buildPhases = (
+				D32E1D76252FB96100038771 /* Sources */,
+				D32E1D77252FB96100038771 /* Frameworks */,
+				D32E1D78252FB96100038771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTableViewCellHeightResizing;
+			productName = TestTableViewCellHeightResizing;
+			productReference = D32E1D7A252FB96100038771 /* TestTableViewCellHeightResizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32E1D8F252FB96800038771 /* TestTableViewCellHeightResizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32E1DA7252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizingTests" */;
+			buildPhases = (
+				D32E1D8C252FB96800038771 /* Sources */,
+				D32E1D8D252FB96800038771 /* Frameworks */,
+				D32E1D8E252FB96800038771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32E1D92252FB96800038771 /* PBXTargetDependency */,
+			);
+			name = TestTableViewCellHeightResizingTests;
+			productName = TestTableViewCellHeightResizingTests;
+			productReference = D32E1D90252FB96800038771 /* TestTableViewCellHeightResizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32E1D9A252FB96800038771 /* TestTableViewCellHeightResizingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32E1DAA252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizingUITests" */;
+			buildPhases = (
+				D32E1D97252FB96800038771 /* Sources */,
+				D32E1D98252FB96800038771 /* Frameworks */,
+				D32E1D99252FB96800038771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32E1D9D252FB96800038771 /* PBXTargetDependency */,
+			);
+			name = TestTableViewCellHeightResizingUITests;
+			productName = TestTableViewCellHeightResizingUITests;
+			productReference = D32E1D9B252FB96800038771 /* TestTableViewCellHeightResizingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32E1D72252FB96100038771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D32E1D79252FB96100038771 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D32E1D8F252FB96800038771 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D32E1D79252FB96100038771;
+					};
+					D32E1D9A252FB96800038771 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D32E1D79252FB96100038771;
+					};
+				};
+			};
+			buildConfigurationList = D32E1D75252FB96100038771 /* Build configuration list for PBXProject "TestTableViewCellHeightResizing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32E1D71252FB96100038771;
+			productRefGroup = D32E1D7B252FB96100038771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32E1D79252FB96100038771 /* TestTableViewCellHeightResizing */,
+				D32E1D8F252FB96800038771 /* TestTableViewCellHeightResizingTests */,
+				D32E1D9A252FB96800038771 /* TestTableViewCellHeightResizingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32E1D78252FB96100038771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E1D8A252FB96800038771 /* LaunchScreen.storyboard in Resources */,
+				D32E1D87252FB96800038771 /* Assets.xcassets in Resources */,
+				D32E1D85252FB96100038771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D8E252FB96800038771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D99252FB96800038771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32E1D76252FB96100038771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E1D82252FB96100038771 /* ViewController.swift in Sources */,
+				D32E1D7E252FB96100038771 /* AppDelegate.swift in Sources */,
+				D32E1D80252FB96100038771 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D8C252FB96800038771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E1D95252FB96800038771 /* TestTableViewCellHeightResizingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32E1D97252FB96800038771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E1DA0252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32E1D92252FB96800038771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32E1D79252FB96100038771 /* TestTableViewCellHeightResizing */;
+			targetProxy = D32E1D91252FB96800038771 /* PBXContainerItemProxy */;
+		};
+		D32E1D9D252FB96800038771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32E1D79252FB96100038771 /* TestTableViewCellHeightResizing */;
+			targetProxy = D32E1D9C252FB96800038771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32E1D83252FB96100038771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32E1D84252FB96100038771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32E1D88252FB96800038771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32E1D89252FB96800038771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32E1DA2252FB96800038771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32E1DA3252FB96800038771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32E1DA5252FB96800038771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D32E1DA6252FB96800038771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D32E1DA8252FB96800038771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTableViewCellHeightResizing.app/TestTableViewCellHeightResizing";
+			};
+			name = Debug;
+		};
+		D32E1DA9252FB96800038771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTableViewCellHeightResizing.app/TestTableViewCellHeightResizing";
+			};
+			name = Release;
+		};
+		D32E1DAB252FB96800038771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestTableViewCellHeightResizing;
+			};
+			name = Debug;
+		};
+		D32E1DAC252FB96800038771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestTableViewCellHeightResizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikawaproj.TestTableViewCellHeightResizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestTableViewCellHeightResizing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32E1D75252FB96100038771 /* Build configuration list for PBXProject "TestTableViewCellHeightResizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32E1DA2252FB96800038771 /* Debug */,
+				D32E1DA3252FB96800038771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32E1DA4252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32E1DA5252FB96800038771 /* Debug */,
+				D32E1DA6252FB96800038771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32E1DA7252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32E1DA8252FB96800038771 /* Debug */,
+				D32E1DA9252FB96800038771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32E1DAA252FB96800038771 /* Build configuration list for PBXNativeTarget "TestTableViewCellHeightResizingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32E1DAB252FB96800038771 /* Debug */,
+				D32E1DAC252FB96800038771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32E1D72252FB96100038771 /* Project object */;
+}
