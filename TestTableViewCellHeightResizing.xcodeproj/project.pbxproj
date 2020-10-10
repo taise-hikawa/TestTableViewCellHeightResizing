@@ -15,6 +15,8 @@
 		D32E1D8A252FB96800038771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32E1D88252FB96800038771 /* LaunchScreen.storyboard */; };
 		D32E1D95252FB96800038771 /* TestTableViewCellHeightResizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D94252FB96800038771 /* TestTableViewCellHeightResizingTests.swift */; };
 		D32E1DA0252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1D9F252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift */; };
+		D32E1DB2252FC2EF00038771 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E1DB0252FC2EF00038771 /* CustomTableViewCell.swift */; };
+		D32E1DB3252FC2EF00038771 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32E1DB1252FC2EF00038771 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D32E1D9B252FB96800038771 /* TestTableViewCellHeightResizingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewCellHeightResizingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32E1D9F252FB96800038771 /* TestTableViewCellHeightResizingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCellHeightResizingUITests.swift; sourceTree = "<group>"; };
 		D32E1DA1252FB96800038771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32E1DB0252FC2EF00038771 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D32E1DB1252FC2EF00038771 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D32E1D7F252FB96100038771 /* SceneDelegate.swift */,
 				D32E1D81252FB96100038771 /* ViewController.swift */,
 				D32E1D83252FB96100038771 /* Main.storyboard */,
+				D32E1DB0252FC2EF00038771 /* CustomTableViewCell.swift */,
+				D32E1DB1252FC2EF00038771 /* CustomTableViewCell.xib */,
 				D32E1D86252FB96800038771 /* Assets.xcassets */,
 				D32E1D88252FB96800038771 /* LaunchScreen.storyboard */,
 				D32E1D8B252FB96800038771 /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				D32E1D8A252FB96800038771 /* LaunchScreen.storyboard in Resources */,
 				D32E1D87252FB96800038771 /* Assets.xcassets in Resources */,
+				D32E1DB3252FC2EF00038771 /* CustomTableViewCell.xib in Resources */,
 				D32E1D85252FB96100038771 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				D32E1D82252FB96100038771 /* ViewController.swift in Sources */,
 				D32E1D7E252FB96100038771 /* AppDelegate.swift in Sources */,
+				D32E1DB2252FC2EF00038771 /* CustomTableViewCell.swift in Sources */,
 				D32E1D80252FB96100038771 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
